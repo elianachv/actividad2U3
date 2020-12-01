@@ -1,0 +1,61 @@
+/*Sección : ¿Qué necesitas para iniciar? */
+
+.materiales {
+    text-align: center;
+}
+
+.carta-box {
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    perspective: 1000px;
+}
+
+.carta-box img {
+    border-radius: 10%;
+}
+
+.carta-box:hover .carta {
+    transform: rotateY(180deg);
+}
+
+.carta {
+    transform-style: preserve-3d;
+    transition: all 0.5s linear;
+}
+
+.cara {
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+/*Cuando se ponen 2 clases seguidas solo se aplica el estilo si el elemento tiene ambas clases*/
+
+.cara.detras {
+    transform: rotateY(180deg);
+}
+
+/*Sección : Tus primeros pasos */
+
+.pasos {
+    background-color: #ffd230;
+    margin: auto;
+}
+
+.paso {
+    border: solid 2px #800080;
+}
+
+/*Sección: Algunos tutoriales*/
+
+.tutoriales iframe {
+    border-radius: 7px;
+    border: #800080 5px solid;
+}
+
+.tutoriales {
+    margin-bottom: 12px;
+    margin: auto;
+    text-align: center;
+}

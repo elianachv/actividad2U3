@@ -1,0 +1,180 @@
+@font-face {
+    font-family: league-spartan;
+    src: url("../font/league-spartan.ttf");
+}
+
+/*Utilidades y decoraciones varias*/
+
+.hr1 {
+    border: #800080 solid 5px;
+    margin: 0;
+}
+
+.hr2 {
+    border: #FFD230 solid 5px;
+    margin: 0;
+}
+
+.contenedor_titulo {
+    text-align: center;
+}
+
+.contenido_titulo {
+    margin: 0 auto;
+    font-family: league-spartan;
+    color: #800080;
+    font-size: x-large;
+}
+
+.contenedor_parrafo {
+    font-family: league-spartan;
+    font-size: medium;
+    text-align: center;
+}
+
+.contenido_parrafo {
+    margin: 0 auto;
+    font-family: league-spartan;
+    color: black;
+    font-size: medium;
+    width: 95%;
+}
+
+
+/*Cabecera*/
+
+header {
+    background-color: #FFD230;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    overflow: auto;
+}
+
+#logo {
+    margin: 0 auto;
+}
+
+/*Menu*/
+
+.my-menu {
+    background-color: #800080;
+}
+
+.navbar .navbar-nav {
+    margin: 0 auto;
+    font-family: league-spartan;
+    color: black;
+    font-size: x-large;
+}
+
+/*Sección: Bordar NO es ...*/
+
+.card-deck {
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.card-title {
+    font-family: league-spartan;
+    color: #800080;
+    font-size: large;
+}
+
+.card-text {
+    font-family: league-spartan;
+    color: black;
+    font-size: medium;
+}
+
+.definiciones {
+    border: solid 2px #FFD230;
+}
+
+.card-img-top, .definiciones {
+    border-radius: 10%;
+}
+
+/*Sección:  Un poco de historia*/
+
+.historia {
+    background-color: #FFD230;
+}
+
+.img-historia {
+    border-radius: 15%;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.p-historia {
+    font-family: league-spartan;
+    font-size: medium;
+}
+
+.js-timeline {
+    font-family: league-spartan;
+}
+
+.historia_slide {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.carrusel_moviles {
+    background-color: #FFD230;
+}
+
+/*Cuando el ancho de la pantalla es 800px o menos*/
+
+@media (max-width:800px) {
+    .carrusel_moviles {
+        display: block !important;
+    }
+    .carrusel_normal {
+        display: none !important;
+    }
+}
+
+/*Sección: Beneficios*/
+
+.beneficios {
+    text-align: justify;
+    margin: 0;
+}
+
+/*Footer*/
+
+.footer1 {
+    background-color: #FFD230;
+    color: #800080;
+    font-family: league-spartan;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer2 {
+    background-color: #800080;
+    color: #FFD230;
+    font-family: league-spartan;
+    text-align: center;
+    margin: 0;
+}
+
+.redes {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: fit-content;
+    padding-bottom: 8px;
+}
+
+.icono_red {
+    margin: 0 5px;
+}
+

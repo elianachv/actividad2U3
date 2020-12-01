@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../plugins/turn/css/basic.css">
+    <!--Instalación css Bootstrap-->
+    <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
+    <!--Hoja de Estilo propia-->
+    <link rel="stylesheet" href="../css/inicio-style.css">
+
+    <link rel="icon" href="../img/logo2.png">
+    <title>Catálogo de puntadas</title>
+</head>
+
+<body>
+    <!--Menu-->
+    <div class="my-menu">
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio<span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../html/principiantes.html">Principiantes <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Más
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item active" href="../html/catalogo.html">Catálogo de puntadas</a>
+                            <a class="dropdown-item" href="../html/directorio.html">Directorio de tiendas</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="contenedor_titulo">
+        <br>
+        <h2 class="contenido_titulo">Catálogo de puntadas</h2><br>
+    </div>
+    <div class="contenedor_parrafo">
+        <div class="contenido_parrafo">
+            <p>Es normal que al incursionar en este precioso mundo del bordado estes un poco ansioso o ansiosa por
+                empezar. Sin embargo es un poco frustrante no saber por dónde o cómo comenzar. Pues bien, es importante
+                que tengas en
+                cuenta los materiales básicos para que puedas comenzar a dar tus primeras puntadas.</p>
+        </div>
+    </div>
+    <hr class="hr1">
+    <br><br>
+    <div class="container-fluid portafolio">
+        <div class="flipbook-viewport">
+            <div id="flipbook">
+                <div> <img src="../img/catalogo_portada.png" alt="portafolio1"> </div>
+                <div> <img src="../img/catalogo_pag1.png" alt="portafolio1"> </div>
+                <div> <img src="../img/catalogo_pag2.png" alt="portafolio1"> </div>
+                <div> <img src="../img/catalogo_pag3.png" alt="portafolio1"> </div>
+                <div class="hard"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <br><br>
+    <hr class="hr2">
+    <!--Footer-->
+    <footer class="footer2">
+        <br>
+        <div class="redes">
+            <a href="https://www.instagram.com/"><img class="icono_red" src="../img/instagram_amarillo.png"
+                    alt="instagram_amarillo"></a>
+            <a href="https://www.facebook.com/"><img class="icono_red" src="../img/facebook_amarillo.png"
+                    alt="facebook_amarillo"></a>
+            <a href="https://www.pinterest.com/"><img class="icono_red" src="../img/pintrest_amarillo.png"
+                    alt="pinterest_amarillo"></a>
+        </div>
+        <p>El arte de bordar <br> Copyright © Todos los derechos reservados 2020</p>
+    </footer>
+
+    <!--Instalación Jquery-->
+    <script src="../plugins/jquery/jquery-3.3.1.min.js"></script>
+    <!--Instalación Turn-->
+    <script src="../plugins/turn/js/turn.js"></script>
+    <script src="../plugins/turn/js/modernizr.2.5.3.min.js"></script>
+    <!--Instalación js Bootstrap-->
+    <script src="../plugins/popper/popper.min.js"></script>
+    <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
+
+
+    <script type="text/javascript">
+        $("#flipbook").turn({
+            width: 700,
+            height: 550,
+            autoCenter: false,
+        });
+    </script>
+</body>
+
+</html>

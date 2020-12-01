@@ -1,0 +1,27 @@
+.directorio {
+    margin: auto;
+    font-family: league-spartan;
+}
+
+.titulos_tabla {
+    text-align: center;
+    color: #800080;
+}
+
+.nombre_tienda {
+    text-align: center;
+}
+
+.formulario {
+    font-family: league-spartan;
+    text-align: center;
+}
+
+.boton {
+    background-color: #FFD230;
+    color: black;
+}
+
+#alert1, #alert2 {
+    font-family: league-spartan;
+}
